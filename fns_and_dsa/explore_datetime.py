@@ -20,7 +20,7 @@ def main():
     print(f"Current date and time: {current_datetime_str}")
 
     while True:
-        user_input = input("Enter number of days to add to the current date: ").strip()
+        user_input = input("Enter the number of days to add to the current date: ").strip()
         if user_input.isdigit():
             days = int(user_input)
             future_date_str = calculate_future_date(days)
